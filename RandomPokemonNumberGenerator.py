@@ -4,6 +4,7 @@ from random import randint
 root = Tk()
 
 root.title("Pokemon Number Generator")
+root.iconbitmap("icon_256.ico")
 
 main = Frame(root)
 main.pack(padx=15, pady=15)
